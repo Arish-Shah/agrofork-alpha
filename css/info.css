@@ -1,0 +1,61 @@
+#profile-nav div{
+    text-align: center;
+}
+#page{
+    padding: 0;
+}
+#page .info-container{
+    padding: 30px;
+    border-radius: 6px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+#page img{
+    display: inline-block;
+    width: 300px;
+}
+#page .inside-info{
+    display: inline-block;
+    vertical-align: top;
+}
+#page h1{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;  
+    font-size: 22px;
+}
+#page h4{
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;  
+}
+#weather-box{
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 15px;
+    padding-left: 15px;
+    width: 160px;
+    height: 130px;
+}
+#weather-box img{
+    height: 60px;
+    width: auto;
+}
+#weather-box span{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    vertical-align: top;
+}
+#weather-box #hum, #weather-box #wind{
+    margin-top: 0px;
+    font-size: 13px;
+    font-weight: normal;
+}
+.details{
+    margin-left: 320px;
+}

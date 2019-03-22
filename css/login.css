@@ -1,0 +1,168 @@
+nav div span a{
+    color: #0084b4;
+}
+.btn-primary{
+    float: none;
+    padding: 16px 20px;
+    line-height: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#page{
+    padding: 0;
+}
+.login-box{
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 35px 0 0 135px;
+}
+.login-box h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.login-box .alert{
+    font-size: 13px;
+    margin-top: 30px;
+    border-left: 3px solid;
+    width: 278px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.login-box .red-alert{
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.login-box .yellow-alert{
+    border-color: yellow;
+    background-color: rgba(255, 255, 0, 0.15);
+}
+.login-box input{
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+.login-box input[type=text], .login-box input[type=password]{
+    width: 290px;
+}
+.login-box span label, .login-box span a{
+    font-size: 13px;
+}
+.login-box .login-bottom{
+    background-color: #f6f6f6;
+    margin-left: -135px;
+    font-size: 13px;
+    color: #888;
+    padding: 20px 0 20px 135px;
+    line-height: 30px;
+}
+.login-box .login-bottom a{
+    font-size: 13px;
+}
+
+/* Only signup style */
+.signup-box label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.signup-box .yellow-alert{
+    width: 368px;
+}
+.signup-box input{
+    width: 382px !important;
+}
+.signup-box .short-textbox{
+    width: 174px !important;
+}
+.signup-box .form-same-line{
+    display: inline-block;
+}
+.signup-box .form-same-line-second{
+    margin-left: 20px;
+}
+.signup-box .form-same-line span{
+    font-size: 14px;
+    margin-left: 20px;
+}
+#zip-alert{
+    padding: 7px 10px;
+    width: 240px;
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 420px;
+    display: none;
+}
+
+/* DropDown Style */
+#soil{
+    width: 382px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 13px;
+    height: 32px;
+    margin-bottom: 20px;
+}
+#soil:active, #soil:focus{
+    border-color: #0084b4;
+}
+#check-label{
+    font-weight: normal;
+    font-size: 12px;
+    color: #888;
+}
+.signup-box input[type=checkbox]{
+    margin-top: 15px;
+    width: 10px !important;
+}
+.signup-box .btn-secondary{
+    float: none;
+    display: block;
+    margin-top: 10px;
+    width: 260px;
+    margin-bottom: 30px;
+    padding: 17px 0;
+    line-height: 0px;
+}
+
+/* Logout Style */
+.logout{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+}
+.logout h1{
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.logout p{
+    font-size: 13px;
+}
+.logout a{
+    font-size: 13px;
+    cursor: pointer;
+}   
+.logout div{
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.logout button{
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 14px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.9));
+    color: #fff; 
+    font-weight: bold;
+}
+.logout button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 1));
+}
+.logout button:active{
+    background: red;
+}
